@@ -28,4 +28,43 @@
     margin: 0 auto;
   }
 
+  .container {
+    width: 100%; /* Largura do container, pode ser ajustada */
+    padding-left: 20px; /* Adiciona um espaçamento à esquerda do container */
+  }
+  
+  .banner-text {
+    width: 575px;
+    height: auto;
+    font-size: 43px;
+    font-family: 'Jura', sans-serif;
+    line-height: 50.92px;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+    text-align: left; /* Alinha o texto à esquerda dentro do container */
+  }
+    
+  .banner-text .regular {
+    color: black;
+    font-weight: 400;
+  }
+  
+  .banner-text .highlight {
+    color: #686931;
+  }
+  
+  .banner-text .bold {
+    font-weight: 700;
+  }
+
+  .vertical-line {
+    width: 1px; /* Largura da linha */
+    height: 345px; /* Altura da linha */
+    background-color: black; /* Cor da linha */
+    transform-origin: top left; /* Define a origem da rotação no canto superior esquerdo */
+    outline: 1px solid black; /* Linha de contorno */
+    outline-offset: -0.50px; /* Ajusta a posição do contorno */
+    position: fixed; /* Habilita o controle de posição */
+    left: -720px; /* Move a linha para a esquerda, ajuste o valor conforme necessário */
+  }
   
