@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinha o conteúdo ao topo */
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    width: 100%;
+    height: auto; /* A altura será determinada automaticamente */
+  }
+  
+  .main-container {
+    width: 1440px; /* Largura fixa de 1440px */
+    max-width: 100%; /* Para garantir que não ultrapasse o limite da tela */
+    margin: 0 auto; /* Centraliza o contêiner */
+    position: relative; /* Para o posicionamento dos elementos dentro dele */
+  }
+  
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

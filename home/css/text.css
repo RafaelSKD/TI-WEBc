@@ -1,0 +1,31 @@
+.nav-link {
+    transition: color 0.3s ease;
+  }
+
+  .nav-link:hover {
+    color: #000000; /* muda para qualquer cor que quiseres no hover */
+    cursor: pointer;
+  }
+
+  .navbar-nav .nav-link,
+.navbar-brand {
+  font-family: 'Jura', sans-serif; /* Fonte */
+  font-size: 25px;                    /* Tamanho (ex: 1rem = 16px) */
+  font-weight: 700;                 /* Espessura: 400 normal, 600 semi-bold, 700 bold */
+  line-height: 118%;
+  letter-spacing: 0%;               /* Espaçamento opcional */
+}
+
+.hero-title {
+    font-family: 'Josefin Slab', serif;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: white;
+
+    height: 79px;
+    margin: 0 auto;
+  }
+
+  

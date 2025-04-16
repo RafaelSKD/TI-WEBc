@@ -1,0 +1,21 @@
+/* Define o container com a imagem de fundo */
+.container-imagem {
+    position: relative; /* Para que os botões com posição absoluta se posicionem em relação a esse container */
+    background-image: url('home/images/fundo.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a área do container */
+    background-position: center;
+    height: 100vh; /* A altura do container será 100% da altura da tela */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Alinha o conteúdo verticalmente no centro */
+    align-items: center; /* Alinha o conteúdo horizontalmente no centro */
+    text-align: center;
+    padding: 0 20px; /* Adiciona algum espaçamento para garantir que o conteúdo não grude nas bordas */
+    color: white; /* Cor do texto dentro do container */
+  }
+
+  .titulo1 {
+    font-size: 36px;
+    font-family: 'Josefin Slab', sans-serif;
+    margin-bottom: 30px; /* Espaçamento abaixo do título */
+  }

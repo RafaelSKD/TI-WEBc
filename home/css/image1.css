@@ -1,0 +1,33 @@
+  .hero-img1 {
+    background-image: url('../images/img1.png'); /* Caminho da imagem */
+    background-size: cover;     /* Preenche toda a área */
+    background-position: center; /* Centraliza */
+    width: 100%;
+    max-width: 1466px;
+    height: 816px;
+    max-height: 816px;
+    margin: 0 auto;             /* Centra horizontalmente */
+  }
+
+  @media (max-width: 1466px) {
+    .hero-img1 {
+      height: 60vh; /* Reduz altura em ecrãs pequenos */
+    }
+  }
+
+  @media (max-width: 768px) {
+    .hero-img1 {
+      height: 50vh; /* Ainda menor em mobile */
+    }
+  }
+
+  .info-box {
+    width: 100%;
+    max-width: 1440px;
+    height: 569px;
+    background-color: rgba(180, 155, 44, 0.25);
+    ; /* equivalente a #B49B2C40 */
+    margin: 0 auto;
+  }
+
+  
